@@ -3,16 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>My Website</title>
-
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: Arial, sans-serif;
       background: #f5f5f5;
@@ -22,28 +15,17 @@
       align-items: center;
       justify-content: center;
     }
-
     .container {
       text-align: center;
       background: white;
       padding: 60px 40px;
       border-radius: 16px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-      max-width: 600px;
+      max-width: 640px;
       width: 90%;
     }
-
-    h1 {
-      font-size: 42px;
-      margin-bottom: 15px;
-    }
-
-    p {
-      font-size: 18px;
-      color: #666;
-      margin-bottom: 25px;
-    }
-
+    h1 { font-size: 42px; margin-bottom: 15px; }
+    p { font-size: 18px; color: #666; margin-bottom: 25px; }
     a {
       display: inline-block;
       padding: 12px 24px;
@@ -52,26 +34,36 @@
       text-decoration: none;
       border-radius: 8px;
     }
-
-    a:hover {
-      background: #444;
+    a:hover { background: #444; }
+    .links { margin-top: 28px; text-align: left; }
+    .links h2 { font-size: 16px; margin-bottom: 10px; }
+    .links a {
+      display: block;
+      background: #f5f5f5;
+      color: #222;
+      margin: 8px 0;
+      font-size: 14px;
+      word-break: break-all;
     }
+    .links a:hover { background: #eaeaea; }
+    code { font-size: 13px; color: #444; }
   </style>
 </head>
-
 <body>
-
   <div class="container">
     <h1>Hello 👋</h1>
+    <p>Welcome to my website.</p>
+    <a href="https://github.com/samar-chandra/my-website" target="_blank">My GitHub</a>
 
-    <p>
-      Welcome to my website.
-    </p>
-
-    <a href="https://github.com/" target="_blank">
-      My GitHub
-    </a>
+    <div class="links">
+      <h2>AASA / Universal Link test</h2>
+      <p>Long-press these in Notes. Opening them in Safari is not an AASA test.</p>
+      <a href="qr1/BNM/test/">/qr1/BNM/test/</a>
+      <a href="rom/qr1/BNM/test/">/rom/qr1/BNM/test/</a>
+      <a href="payment/test/">/payment/test/</a>
+      <a href="migration/">/migration/</a>
+      <p><code>.well-known/apple-app-site-association</code></p>
+    </div>
   </div>
-
 </body>
 </html>
