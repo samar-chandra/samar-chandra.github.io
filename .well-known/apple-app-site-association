@@ -1,0 +1,25 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "2EZEW5TPT2.com.moldcellmoney.consumer.UAT",
+        "paths": [
+          "/rom/qr1/*"
+        ]
+      },
+      {
+        "appID": "2EZEW5TPT2.com.moldcell.mmoney",
+        "paths": [
+          "/qr1/*"
+        ]
+      },
+      {
+        "appID": "2EZEW5TPT2.my.moldcell.selfservice",
+        "paths": [
+          "/migration",
+          "/migration/*"
+        ]
+      }
+    ]
+  }
+}
