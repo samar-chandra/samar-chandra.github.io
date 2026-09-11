@@ -8,16 +8,12 @@
           "2EZEW5TPT2.com.moldcellmoney.consumer.UAT"
         ],
         "paths": [
-          "/rom/qr1/*",
           "/qr1/*",
-          "/payment/*",
-          "/payments/*"
+          "/rom/qr1/*"
         ],
         "components": [
-          { "/": "/rom/qr1/*" },
           { "/": "/qr1/*" },
-          { "/": "/payment/*" },
-          { "/": "/payments/*" }
+          { "/": "/rom/qr1/*" }
         ]
       },
       {
@@ -27,13 +23,11 @@
         ],
         "paths": [
           "/qr1/*",
-          "/payment/*",
-          "/payments/*"
+          "/rom/qr1/*"
         ],
         "components": [
           { "/": "/qr1/*" },
-          { "/": "/payment/*" },
-          { "/": "/payments/*" }
+          { "/": "/rom/qr1/*" }
         ]
       },
       {
